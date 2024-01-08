@@ -35,9 +35,8 @@ about:
   home: https://pypi.org/project/sphinxcontrib-jquery/
   license: 0BSD AND MIT
   license_file:
-    - LICENCE
-    - vendor-licenses/
-  license_family: MIT
+    - LICENSE
+  license_family: OTHER
   summary: A sphinx extension to include jQuery on newer sphinx releases
   description: |
     sphinxcontrib-jquery ensures that jQuery is always installed for use in
