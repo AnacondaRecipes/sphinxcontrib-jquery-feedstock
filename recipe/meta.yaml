@@ -37,11 +37,13 @@ about:
   license_file:
     - LICENCE
     - vendor-licenses/
+  license_family: MIT
   summary: A sphinx extension to include jQuery on newer sphinx releases
   description: |
     sphinxcontrib-jquery ensures that jQuery is always installed for use in
     Sphinx themes or extensions.
   dev_url: https://github.com/sphinx-contrib/jquery
+  doc_url: https://github.com/sphinx-contrib/jquery
 
 extra:
   recipe-maintainers:
