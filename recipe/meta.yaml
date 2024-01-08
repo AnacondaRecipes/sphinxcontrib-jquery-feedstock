@@ -37,7 +37,6 @@ about:
   license_file:
     - LICENSE
     - LICENSE_jquery
-    - https://github.com/jquery/jquery/blob/3.6.0/LICENSE.txt
   license_family: OTHER
   summary: A sphinx extension to include jQuery on newer sphinx releases
   description: |
