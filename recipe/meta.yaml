@@ -36,7 +36,7 @@ about:
   license: 0BSD AND MIT
   license_file:
     - LICENSE
-    - LICENSE_jquery
+    - LICENSE_jquery.txt
   license_family: OTHER
   summary: A sphinx extension to include jQuery on newer sphinx releases
   description: |
