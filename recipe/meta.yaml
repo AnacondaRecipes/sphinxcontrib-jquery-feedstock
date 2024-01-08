@@ -11,26 +11,25 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
   host:
-    - python >=2.7
+    - python
     - pip
-    - flit-core >=3.7,<4
+    - flit-core
   run:
-    - python >=2.7
+    - python
     - sphinx >=1.8
 
 test:
   imports:
     - sphinxcontrib.jquery
-  commands:
-    - pip check
   requires:
     - pip
+  commands:
+    - pip check
 
 about:
   home: https://pypi.org/project/sphinxcontrib-jquery/
